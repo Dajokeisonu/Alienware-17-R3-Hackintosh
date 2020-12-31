@@ -18,3 +18,13 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 - **USB WAKE SUPPORT** Disabled
 - **FIRMWARE TPM** Disabled
 - **Secure Boot** Disbaled
+
+# Kexts & Drivers
+
+- **AirportBcrmFixup:** Since I replaced the original Killer Wireless Wifi card that originally comes with the laptop.  I am using now a DW1560. AirportBcmFixup is an open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards. 
+
+- **AppleAlc:** Id an open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. With Creative codec my layout id is **1** that doesnt mean that it will be the same for you. Layout 0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12 are all the codecs that you can choose from.
+
+- **AtherosE2200Ethernet:** Is a Qualcomm Atheros Killer E2200 driver for macOS.  Simply enables your ethernet adapter to work. 
+
+
