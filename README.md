@@ -2,7 +2,7 @@
 
 # Specs
 
--**CPU:** Intel Core i7-670OHQ
+- **CPU:** Intel Core i7-670OHQ
 -**RAM:** 32 GB DDR4 2133 Mhz
 -**IGPU:** Intel HD 530
 -**dGPU:** NVIDIA GTX 970m
