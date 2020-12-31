@@ -9,3 +9,10 @@
 - **Wifi:** Card: Dell Wireless 1560 aka DW1560
 - **OS:** macOS Big Sur, Windows 10 Pro, Ubuntu Budgie
 - **Storage:** 2 Samsung 970 EVO Plus NVME SSD 1TB,1 Samsung 860 EVO 1TB
+
+#Bios Configuration
+
+- **SATA OPERATION** ACHI
+- **USB WAKE SUPPORT** Disabled
+- **FIRMWARE TPM** Disabled
+- **Secure Boot** Disbaled
