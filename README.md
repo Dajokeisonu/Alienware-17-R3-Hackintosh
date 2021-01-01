@@ -91,6 +91,8 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - [Kext Repo:](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23) This is the OneDrive of all the dev builds of the kexts that we use. 
 
+- [gfxutil](https://github.com/acidanthera/gfxutil) A tool to work with Device Properties commonly found in Apple Mac firmwares by mcmatrix.
+
 - [USBMap Tool:]( https://github.com/corpnewt/USBMap) Python script for mapping USB ports in macOS and creating a custom injector kext. 
 
 - [SSDTTIME:](https://github.com/corpnewt/SSDTTime) A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist. 
