@@ -77,7 +77,11 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **Config.Plist Setup:**. This is the one and only guide I recommend. It is thorough and will go over all the basic format of the config.plist and everything you will need. https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#starting-point
 
-- **ProperTree:** ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now :) 
+- **ProperTree:** ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! https://github.com/corpnewt/ProperTree
+
+- **Goldfishe's Kext Repo:** This is the OneDrive of all the dev builds of the kexts that we use. https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+
+
 
 
 
