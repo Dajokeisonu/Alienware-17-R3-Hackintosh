@@ -17,7 +17,7 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 - **SATA OPERATION** ACHI
 - **USB WAKE SUPPORT** Disabled
 - **FIRMWARE TPM** Disabled
-- **Secure Boot** Disbaled
+- **SECURE BOOT** Disbaled
 
 # Kexts & Drivers
 
