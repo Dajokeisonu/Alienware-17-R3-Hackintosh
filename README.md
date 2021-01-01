@@ -1,6 +1,6 @@
 # Alienware-17r3-Hackintosh-Guide
 
-With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.gg/vwrZYVej7g  I was able to successfully create a stable working Hackintosh.  In this guide I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3.
+With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.gg/vwrZYVej7g  I was able to successfully create a stable working Hackintosh.  In this guide I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
 
 # Specs
 
