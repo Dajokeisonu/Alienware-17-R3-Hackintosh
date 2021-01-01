@@ -61,7 +61,16 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 
 - **SSDT-PLUG:** Allows for native CPU power management on Haswell and newer CPU's.
 
-- **SSDT-GPRW:** This is a special SSDT for solving instant wake by hooking GPRW or UPRW.  
+- **SSDT-GPRW:** This is a special SSDT for solving instant wake by hooking GPRW or UPRW. 
+
+# Patches
+
+- **Change EC0 to EC:** ```<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<data>RUMwXw==</data>
+</plist>```
+
 
 
 
