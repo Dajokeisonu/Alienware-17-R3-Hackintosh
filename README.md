@@ -97,6 +97,18 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are.
 
+- **rEFInd:** This is a bootloader for your laptop to multiboot multiple operating systems.  I highly recommend this as your booting option as Opencore will trick windows and linux into thinking that it is a real macbook.  This can cause issues as it is not. 
+
+# Unresolved Issues
+
+- **Shutdown Issue:** While in macOS if I power off with the power adapter not connected the laptop will not turn back on without putting the adapter back in.  I believe the laptop is going into some werid sleep state or what not.  If anyone else has experienced this please reach out to me.  I would love one day to find a solution for this.
+
+- **Mic Issues:** If I reboot the laptop when I enter macOS the mic will not work.  If I put the laptop to sleep and wake it up the mic works again.
+
+- **Sleep Issue** If I reboot from Windows or Linux to macOS and try to put the laptop to sleep, it will go to sleep but will kernel panic on wake.  The same applys if I do the opposite from rebooting from macOS into Windows or Linux.  The sleep issue will presist in those OS's as well.  The only fix is another reboot to that same operating system.
+
+
+
 
 
 
