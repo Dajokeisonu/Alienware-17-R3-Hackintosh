@@ -85,7 +85,7 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **Kext Repo:** This is the OneDrive of all the dev builds of the kexts that we use. https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
 
-_ **USBMap Tool:** Python script for mapping USB ports in macOS and creating a custom injector kext. https://github.com/corpnewt/USBMap
+- **USBMap Tool:** Python script for mapping USB ports in macOS and creating a custom injector kext. https://github.com/corpnewt/USBMap
 
 - **SSDTTIME:** A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist.
 
