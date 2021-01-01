@@ -19,7 +19,7 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 - **FIRMWARE TPM** Disabled
 - **SECURE BOOT** Disbaled
 
-# Kexts & Drivers
+# Kexts
 
 - **AirportBcrmFixup:** Since I replaced the original Killer Wireless Wifi card that originally comes with the laptop.  I am using now a DW1560. AirportBcmFixup is an open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards. 
 
@@ -38,6 +38,18 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 - **WhateverGreen:** Is a Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.4.0 or newer.
 
 - **VirtualSMC** Is an advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. The following plugin kexts that come with VirtualSMC are the ones I use.  **SMCBatteryManager.kext:** battery percentage, **SMCDellSensors.kext:** sensors, and **SMCProcessor.kext:** for finer measurement of the CPU.
+
+# Drivers
+
+- **HFSPlus.efi:** Is needed for seeing HFS volumes(ie. macOS Installers and Recovery partitions/images).
+
+- **OpenRuntime.efi:** Is a replacement for AptioMemoryFix.efi (opens new window), used as an extension for OpenCore to help with patching boot.efi for NVRAM fixes and better memory management.
+
+- **AudioDXE.efi:** For Bootchime
+
+- **OpenCanopy.efi** This is OpenCore's optional GUI. 
+
+
 
 
 
