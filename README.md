@@ -33,7 +33,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **Lilu:** An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. As of right now in macOS Big Sur, Lilu is only semi-working as there is an issue with userspace patching. 
 
-- **VoodooPS2Controller:** This will allow your keyboard and trackpad to operate.  Due note gestures will now work with the older version of this kext that I use.  Acidantera has an updated one but my trackpad clickers do not work with that one.
+- **VoodooPS2Controller:** This will allow your keyboard and trackpad to operate.  Gestures will now work with the older version of this kext that I use.  Acidanthera has an updated one but my trackpad clickers do not work with that one.
 
 - **WhateverGreen:** Is a Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.4.0 or newer.
 
