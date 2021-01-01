@@ -17,7 +17,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 - **SATA OPERATION** ACHI
 - **USB WAKE SUPPORT** Disabled
 - **FIRMWARE TPM** Disabled
-- **SECURE BOOT** Disbaled
+- **SECURE BOOT** Disabled
 
 # Kexts
 
