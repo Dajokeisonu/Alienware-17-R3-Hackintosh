@@ -31,7 +31,7 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 
 - **CpuFriend:**  Is a Lilu plug-in for dynamic power management data injection.  In the links below you will use a script to set your powermangment to your liking.  This will create a kext called **CPUFriendDataProvider.kext**.
 
-- **Lilu:** An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. As of right now Lilu is only semi-working as there is an issue with userspace patching. 
+- **Lilu:** An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. As of right now in macOS Big Sur, Lilu is only semi-working as there is an issue with userspace patching. 
 
 - **VirtualSMC** Is an advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. The following plugin kexts that come with VirtualSMC are the ones I use.  **SMCBatteryManager.kext:** battery percentage, **SMCDellSensors.kext:** sensors, and **SMCProcessor.kext:** for finer measurement of the CPU.
 
