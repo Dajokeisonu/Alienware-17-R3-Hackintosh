@@ -95,9 +95,9 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **OCConfigCompare:** is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot.
 
-- **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are.
+- **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are. https://opencore.slowgeek.com
 
-- **rEFInd:** This is a bootloader for your laptop to multiboot multiple operating systems.  I highly recommend this as your booting option as Opencore will trick windows and linux into thinking that it is a real macbook.  This can cause issues as it is not. 
+- **rEFInd:** This is a bootloader for your laptop to multiboot multiple operating systems.  I highly recommend this as your booting option as Opencore will trick windows and linux into thinking that it is a real macbook.  This can cause issues as it is not. https://www.rodsbooks.com/refind/
 
 # Unresolved Issues
 
