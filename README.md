@@ -65,11 +65,10 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 
 # Patches
 
-- **Change EC0 to EC:** ```<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<data>RUMwXw==</data>
-</plist>```
+- **Change EC0 to EC:** Find ``<4543305F>`` Replace ``<45435F5F>`` This renames ECO to EC which is your embedded controller.
+
+- **Change_PRW to XPRW:** Find ``<140F5850525700A4475052570A6D0A04>`` Replace ``<140F5F50525700A4475052570A6D0A04>``. This is a custom patch that prevents laptop from waking on sleep.
+
 
 
 
