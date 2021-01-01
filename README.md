@@ -67,9 +67,13 @@ With the help of CorpNewt and the talent over at **/r/ Hackintosh Paradise** htt
 
 - **Change EC0 to EC:** Find ``<4543305F>`` Replace ``<45435F5F>`` This renames ECO to EC which is your embedded controller.
 
-- **Change_PRW to XPRW:** Find ``<140F5850525700A4475052570A6D0A04>`` Replace ``<140F5F50525700A4475052570A6D0A04>`` This is a custom patch that prevents laptop from waking on sleep.
+- **Change_PRW to XPRW:** Find ``<140F5F50525700A4475052570A6D0A04>`` Replace ``<140F5850525700A4475052570A6D0A04>`` This is a custom patch that prevents laptop from waking on sleep.
 
-Other patches can be applied once you utilize Fix HPET which will be linked down below.
+- **Change_CRS to XCRS:** Find ``<5F43525308A019>`` Replace ``<5843525308A019>`` Created with SSDTTIME FixHpet
+
+- **RTC IRQ 8 Patch:** Find ``<2200017900>`` Replace ``<2200007900>`` Created with SSDTTIME FixHpet
+
+- **TIMR IRQ 0 Patch:** Find ``<2201007900>`` Replace ``<2200007900>`` Created with SSDTIME FixHpet
 
 # My Boot Args
 
