@@ -77,7 +77,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # My Boot Args
 
-```keepsyms=1 -cdfon alcid=1 alcdelay=1000 debug=0x100 nvda_drv_vrl=1 msgbuf=1048576``` 
+```keepsyms=1 -cdfon alcid=1 alcdelay=1000 debug=0x100 nvda_drv_vrl=1``` 
 
 # Links
 
