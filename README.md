@@ -29,7 +29,7 @@ With the help of CorpNewt and the talent over at **/r/ Hackintosh Paradise** htt
 
 - **BrcmPatchRAM:** Is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. It will apply the firmware update to your Broadcom Bluetooth device on every startup / wakeup, identical to the Windows drivers. The firmware applied is extracted from the Windows drivers and the functionality should be equal to Windows.  With macOS 10.5 or higer you will want to use **BrcmPatchRAM3.kext**. You will also want to use **BrcmFirmwareData.kext** and **BrcmBluetoothInjector.kext**. These will all be in the links below. This will get bluetooth working along with continuty and handoff.
 
-- **CpuFriend:**  Is a Lilu plug-in for dynamic power management data injection.  In the links below you will use a script to set your powermangment to your liking.  This will create a kext called **CPUFriendDataProvider.kext**.
+- **CpuFriend:**  Is a Lilu plug-in for dynamic power management data injection.  In the links below you will use a script to set your power management to your liking.  This will create a kext called **CPUFriendDataProvider.kext**.
 
 - **Lilu:** An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. As of right now in macOS Big Sur, Lilu is only semi-working as there is an issue with userspace patching. 
 
@@ -51,7 +51,7 @@ With the help of CorpNewt and the talent over at **/r/ Hackintosh Paradise** htt
 
 # SSDT'S
 
-- **SSDT-USBX.aml & SSDT-UIAC.aml:** The SSDT's represent your usb mapping of your ports.  They are created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this these SSDT"S you will also use a kext that is created as well.
+- **SSDT-USBX.aml & SSDT-UIAC.aml:** The SSDT's represent usb power and mapping of your ports.  They are created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this these SSDT"S you will also use a kext that is created as well.
 
 - **SSDT-PNLF.aml:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
 
@@ -87,13 +87,13 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **USBMap Tool:** Python script for mapping USB ports in macOS and creating a custom injector kext. https://github.com/corpnewt/USBMap
 
-- **SSDTTIME:** A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist.
+- **SSDTTIME:** A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist. https://github.com/corpnewt/SSDTTime
 
 - **CPUFriend:** This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  https://github.com/corpnewt/CPUFriendFriend
 
 - **MountEFI:** It's a script that mounts your EFI simply. https://github.com/corpnewt/MountEFI
 
-- **OCConfigCompare:** is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot.
+- **OCConfigCompare:** is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot. https://github.com/corpnewt/OCConfigCompare
 
 - **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are. https://opencore.slowgeek.com
 
