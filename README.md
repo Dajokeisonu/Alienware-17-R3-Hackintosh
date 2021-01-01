@@ -1,6 +1,6 @@
 # Alienware-17r3-Hackintosh-Guide
 
-With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.gg/vwrZYVej7g  I was able to successfully create a stable working Hackintosh.  In this guide I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
+With the help of CorpNewt and the talent over at **/r/ Hackintosh Paradise** https://discord.gg/vwrZYVej7g  I was able to successfully create a stable working Hackintosh.  In this guide I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
 
 # Specs
 
@@ -71,6 +71,10 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 
 Other patches can be applied once you utilize Fix HPET which will be linked down below.
 
+# My Boot Args
+
+```keepsyms=1 -cdfon alcid=1 alcdelay=1000 debug=0x100 nvda_drv_vrl=1 msgbuf=1048576``` 
+
 # Links
 
 - **OpenCore:**. This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.  https://github.com/acidanthera/OpenCorePkg
@@ -79,7 +83,22 @@ Other patches can be applied once you utilize Fix HPET which will be linked down
 
 - **ProperTree:** ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! https://github.com/corpnewt/ProperTree
 
-- **Goldfishe's Kext Repo:** This is the OneDrive of all the dev builds of the kexts that we use. https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+- **Kext Repo:** This is the OneDrive of all the dev builds of the kexts that we use. https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+
+_ **USBMap Tool:** Python script for mapping USB ports in macOS and creating a custom injector kext. https://github.com/corpnewt/USBMap
+
+- **SSDTTIME:** A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist.
+
+- **CPUFriend:** This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  https://github.com/corpnewt/CPUFriendFriend
+
+- **MountEFI:** It's a script that mounts your EFI simply. https://github.com/corpnewt/MountEFI
+
+- **OCConfigCompare:** is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot.
+
+- **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are.
+
+
+
 
 
 
