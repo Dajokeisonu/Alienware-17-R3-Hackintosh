@@ -81,27 +81,27 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Links
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg)* This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.  
+- [OpenCore:](https://github.com/acidanthera/OpenCorePkg) This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.  
 
-- [Config.Plist Setup](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#starting-point) This is the one and only guide I recommend. It is thorough and will go over all the basic format of the config.plist and everything you will need. 
+- [Config.Plist Setup:](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#starting-point) This is the one and only guide I recommend. It is thorough and will go over all the basic format of the config.plist and everything you will need. 
 
-- **ProperTree:** ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! https://github.com/corpnewt/ProperTree
+- [ProperTree:](https://github.com/corpnewt/ProperTree) ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! https://github.com/corpnewt/ProperTree
 
-- **Kext Repo:** This is the OneDrive of all the dev builds of the kexts that we use. https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+- [Kext Repo:](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23) This is the OneDrive of all the dev builds of the kexts that we use. 
 
-- **USBMap Tool:** Python script for mapping USB ports in macOS and creating a custom injector kext. https://github.com/corpnewt/USBMap
+- [USBMap Tool:]( https://github.com/corpnewt/USBMap) Python script for mapping USB ports in macOS and creating a custom injector kext. 
 
-- **SSDTTIME:** A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist. https://github.com/corpnewt/SSDTTime
+- [SSDTTIME:](https://github.com/corpnewt/SSDTTime) A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist. 
 
-- **CPUFriend:** This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  https://github.com/corpnewt/CPUFriendFriend
+- [CPUFriend:]( https://github.com/corpnewt/CPUFriendFriend) This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  
 
-- **MountEFI:** It's a script that mounts your EFI simply. https://github.com/corpnewt/MountEFI
+- [MountEFI:]( https://github.com/corpnewt/MountEFI) It's a script that mounts your EFI simply. 
 
-- **OCConfigCompare:** is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot. https://github.com/corpnewt/OCConfigCompare
+- [OCConfigCompare:](https://github.com/corpnewt/OCConfigCompare )Is a python script to compare two plists and list missing keys in either.  This is very useful when you are trying to figure out whats missing or what errors OC is giving you prior to boot. 
 
-- **OpenCore Sanity Check:** This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are. https://opencore.slowgeek.com
+- [OpenCore Sanity Check:]( https://opencore.slowgeek.com) This is an alternative method from Corp's OCConfigCompare Script to drag and drop your plist in and see what is missing and what the recommendations are. 
 
-- **rEFInd:** This is a bootloader for your laptop to multiboot multiple operating systems.  I highly recommend this as your booting option as Opencore will trick windows and linux into thinking that it is a real macbook.  This can cause issues as it is not. https://www.rodsbooks.com/refind/
+- [rEFInd:](https://www.rodsbooks.com/refind/) This is a bootloader for your laptop to multiboot multiple operating systems.  I highly recommend this as your booting option as Opencore will trick windows and linux into thinking that it is a real macbook.  This can cause issues as it is not. 
 
 # Unresolved Issues
 
