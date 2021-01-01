@@ -55,7 +55,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **SSDT-PNLF.aml:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
 
-- **SSDT-NoHybGfx.aml** This bad boy disables your Nvidia Gpu in macOS so you can get proper sleep working. Our Nvidia Gpu is pointless as in anything above Mojave it will not work.  It can work in High Sierra but due to Nvidia Optimus we cannot display from our laptop screen only via the hdmi port.  Do note but using the SSDT you will also sacrifice using our tb3 port for display out via igpu.  This is a double edged sword as you are either willing to give up sleep or video out.  I prefer to have working sleep.
+- **SSDT-NoHybGfx.aml** This bad boy disables your Nvidia Gpu in macOS so you can get proper sleep working. Our Nvidia Gpu is pointless being enabled as it drains more battery and cannot function on anything higher than High SIerra.    It can work in High Sierra but due to Nvidia Optimus we cannot display from our laptop screen only via the hdmi port.  Do note but using the SSDT you will also sacrifice using our tb3 port for display out via igpu.  This is a double edged sword as you are either willing to give up sleep or video out.  I prefer to have working sleep.
 
 - **SSDT-HPET:** Fixes IRQ Conflicts.  We will be utilizing one of CorpNewt's tools in the link below to create this SSDT which is called SSDTTIME.
 
