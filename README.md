@@ -49,6 +49,22 @@ With the help of the talent over at **/r/ Hackintosh Paradise** https://discord.
 
 - **OpenCanopy.efi** This is OpenCore's optional GUI. 
 
+# SSDT'S
+
+- **SSDT-USBX.aml & SSDT-UIAC.aml:** The SSDT's represent your usb mapping of your ports.  They are created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this these SSDT"S you will also use a kext that is created as well.
+
+- **SSDT-PNLF.aml:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
+
+- **SSDT-NoHybGfx.aml** This bad boy disables your Nvidia Gpu in macOS so you can get proper sleep working. Our Nvidia Gpu is pointless as in anything above Mojave it will not work.  It can work in High Sierra but due to Nvidia Optimus we cannot display from our laptop screen only via the hdmi port.  Do note but using the SSDT you will also sacrifice using our tb3 port for display out via igpu.  This is a double edged sword as you are either willing to give up sleep or video out.  I prefer to have working sleep.
+
+- **SSDT-HPET:** Fixes IRQ Conflicts.  We will be utilizing one of CorpNewt's tools in the link below to create this SSDT which is called SSDTTIME.
+
+- **SSDT-PLUG:** Allows for native CPU power management on Haswell and newer CPU's.
+
+- **SSDT-GPRW:** This is a special SSDT for solving instant wake by hooking GPRW or UPRW.  
+
+
+
 
 
 
