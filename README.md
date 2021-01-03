@@ -22,7 +22,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Getting Started
 
-- Follow all the steps in [Creating The Usb](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  I found it easiest to create the usb in macOS since you can just download macOS right from the appstore.  If this not an option for you thats fine as you can use windows or linux.  Once you have created your bootable usb with your EFI folder you can see below the kexts, drivers, and ACPI that I have used.
+- Follow all the steps in [Creating The USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  I found it easiest to create the usb in macOS since you can just download macOS right from the appstore.  If this not an option for you thats fine as you can use windows or linux.  Once you have created your bootable usb with your EFI folder you can see below the kexts, drivers, and ACPI that I have used.
 
 # Kexts
 
