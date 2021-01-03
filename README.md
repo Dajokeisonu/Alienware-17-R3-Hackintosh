@@ -155,6 +155,10 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **Sleep Issue** If I reboot from Windows or Linux to macOS and try to put the laptop to sleep, it will go to sleep but will kernel panic on wake.  The same applys if I do the opposite from rebooting from macOS into Windows or Linux.  The sleep issue will presist in those OS's as well.  The only fix is another reboot to that same operating system.
 
+# Contacting
+
+If you are experiencing any issues of you would like to reach out for support please pay my discord [HaXRu$](https://discord.com/channels/763191086117814282/783871684989419572/783872347886190602) a visit. Its a discord server created to unite multiple modding communites and form a bridge where we can work together to create interesting projects and see them to fruition!  I am looking forward to watching this server grow and getting the oppertunity to work with some great talent!  I also strive to provide support for the multiple modding communities that are going to be part of HaXRu$. 
+
 
 
 
