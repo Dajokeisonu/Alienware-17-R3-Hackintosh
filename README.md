@@ -72,6 +72,10 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **OpenShell.efi**  This allows you to run shell using a command-line interface.  There are other tools that come with Open Core that you can check out. 
 
+# Config.Plist
+
+- Once you have gathered all the contentes of your EFI folder, it is now time to construct your config.plist.  The best all around tool you can use is Proper Tree which I have linked in the description.  Proper Tree has a function called OCSnapshot which will import all of your SSDT'S, Kexts, Drivers, and Tools into your plist for you for convenience.  Since our laptop is a Skylake Cpu we will be following the [SkyLake Laptop Config.Plist Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).  Make sure you read through everything and have an understanding as to what is going on.  Below I will list the ACPI Patches that I use and Boot Args.  
+
 # ACPI Patches
 
 - **Change EC0 to EC:** Find ``<4543305F>`` Replace ``<45435F5F>`` This renames ECO to EC which is your embedded controller.
@@ -96,7 +100,23 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - ```debug=0x100``` This disables macOS's watchdog which helps prevents a reboot on a kernel panic. That way you can hopefully glean some useful info and follow the breadcrumbs to get past the issues.
 
-- ```-v``` This will enable verbose boot.  This is an optional boot arg to have for error logging purposes if you happen to have issues booting. 
+- ```-v``` This will enable verbose boot.  This is an optional boot arg to have for error logging purposes if you happen to have issues booting.
+
+# Booting The Bootable USB
+
+- Once you have completed your config.plist it is time to boot Open Core from the usb you used and boot the installer. Keep your usb connected and reboot.
+
+- Upon Reboot press ``F12`` to get to your boot options.  Choose your usb that has Open Core on it.
+
+- Once you have entered the installer select Disk Utility.  On the top left where it says view make sure you choose ``Show All Devices``.  Now right click on your HDD or SSD and choose ``erase``.  Give your Drive a name and make sure that the Format is ``APFS`` and the Scheme ``GUID Partition Map``.  **Warning** This will erase all content on the drive make sure you have backups to whatever you had on there previously if it was important.
+
+- You can now exit disk utility and choose to Install macOS.  Pick your Drive that you just formatted and let the install begin.  There will be several reboots in this install.  Be patient as it can take some time.  
+
+- Once the installation is completed you will be greeted with the setup screen.  I advise not to enter your Icloud Account information here you can skip that and set it up later.  Go through allt he prompts for set up and complete.
+
+- Once you entered the Desktop we now must transfer the EFI folder on the usb over to to the EFI folder of the new Drive that macOS is on.  Go into finder and choose preferences.  In general make sure you check off to show Hard disks and External disks.  Now in the links below I want you to download **MountEFI** we will use this to mount the efi of the bootable usb and the hard drive that macOS is on.  Once you run the script and mount the EFI folders, open the usb's EFI folder and right click on the folder called EFI and press copy.  Then open your hard drives EFI folder and paste it in there.  If you already see an EFI folder its fine let it overwrite it. You may now disconnect the usb and reboot your laptop.
+
+- Congratulations you now have successfully installed macOS on your Alienware 17R3!
 
 # Links
 
