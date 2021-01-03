@@ -123,7 +123,9 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Links
 
-- [OpenCore:](https://github.com/acidanthera/OpenCorePkg) This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.  
+- [OpenCore:](https://github.com/acidanthera/OpenCorePkg) This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.
+
+- [Dortainia's Open Core Guide](https://dortania.github.io/OpenCore-Install-Guide/) This is the ultimate guide for installing Hackintosh on various different hardware. Huge Credit goes to everyone at Hackintosh Paradise who contributed to making this a reality for users.
 
 - [ProperTree:](https://github.com/corpnewt/ProperTree) ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! 
 
