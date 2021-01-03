@@ -74,7 +74,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Config.Plist
 
-- Once you have gathered all the contentes of your EFI folder, it is now time to construct your config.plist.  The best all around tool you can use is Proper Tree which I have linked in the description.  Proper Tree has a function called OCSnapshot which will import all of your SSDT'S, Kexts, Drivers, and Tools into your plist for you for convenience.  Since our laptop is a Skylake Cpu we will be following the [SkyLake Laptop Config.Plist Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).  Make sure you read through everything and have an understanding as to what is going on.  Below I will list the ACPI Patches that I use and Boot Args.  
+- Once you have gathered all the contentes of your EFI folder, it is now time to construct your config.plist.  The best all around tool you can use is Proper Tree which I have linked in below.  Proper Tree has a function called OCSnapshot which will import all of your SSDT'S, Kexts, Drivers, and Tools into your plist for you for convenience.  Since our laptop is a Skylake Cpu we will be following the [SkyLake Laptop Config.Plist Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).  Make sure you read through everything and have an understanding as to what is going on.  Below I will list the ACPI Patches that I use and Boot Args.  
 
 # ACPI Patches
 
