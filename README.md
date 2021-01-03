@@ -68,6 +68,10 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **SSDT-GPRW:** This is a special SSDT for solving instant wake by hooking GPRW or UPRW. 
 
+# Tools
+
+- **OpenShell.efi**  This allows you to run shell using a command-line interface.  There are other tools that come with Open Core that you can check out. 
+
 # ACPI Patches
 
 - **Change EC0 to EC:** Find ``<4543305F>`` Replace ``<45435F5F>`` This renames ECO to EC which is your embedded controller.
