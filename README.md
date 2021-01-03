@@ -1,4 +1,4 @@
-![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/Screen%20Shot%202021-01-03%20at%2012.45.11%20AM.png)
+
 
 # Alienware-17R3-Hackintosh
 
