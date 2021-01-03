@@ -69,11 +69,11 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **Change_PRW to XPRW:** Find ``<140F5F50525700A4475052570A6D0A04>`` Replace ``<140F5850525700A4475052570A6D0A04>`` This is a custom patch that prevents laptop from waking on sleep.
 
-- **Change_CRS to XCRS:** Find ``<5F43525308A019>`` Replace ``<5843525308A019>`` Created with SSDTTIME FixHpet
+- **Change_CRS to XCRS:** Find ``<5F43525308A019>`` Replace ``<5843525308A019>`` Created with SSDTTIME FixHPET
 
-- **RTC IRQ 8 Patch:** Find ``<2200017900>`` Replace ``<2200007900>`` Created with SSDTTIME FixHpet
+- **RTC IRQ 8 Patch:** Find ``<2200017900>`` Replace ``<2200007900>`` Created with SSDTTIME FixHPET
 
-- **TIMR IRQ 0 Patch:** Find ``<2201007900>`` Replace ``<2200007900>`` Created with SSDTIME FixHpet
+- **TIMR IRQ 0 Patch:** Find ``<2201007900>`` Replace ``<2200007900>`` Created with SSDTIME FixHPET
 
 # My Boot Args
 
