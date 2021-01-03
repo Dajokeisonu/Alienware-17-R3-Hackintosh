@@ -1,3 +1,5 @@
+![screenshot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.walmart.com%2Fip%2FRefurbished-Dell-Alienware-17-R3-i7-6820HK-16GB-1TB-128GB-SSD-1080P-FHD-Nvidia-GTX980M-8GB-Windows-10-Home-laptop%2F883546109&psig=AOvVaw14n01MK2-IUmPvh4YefZgo&ust=1609745004062000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj2tcyd_-0CFQAAAAAdAAAAABAi)
+
 # Alienware-17R3-Hackintosh
 
 With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](https://discord.gg/vwrZYVej7g)**  I was able to successfully create a stable working vanilla Hackintosh.  I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
