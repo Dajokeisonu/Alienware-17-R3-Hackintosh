@@ -122,8 +122,6 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - [OpenCore:](https://github.com/acidanthera/OpenCorePkg) This is the bootloader which we will be using to boot macOS.  Be sure to review the docs as they contain valuable information.  
 
-- [Config.Plist Setup:](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#starting-point) This is the one and only guide I recommend. It is thorough and will go over all the basic format of the config.plist and everything you will need. 
-
 - [ProperTree:](https://github.com/corpnewt/ProperTree) ProperTree is a cross-platform GUI plist editor written using Python (compatible with both 2.x and 3.x) and Tkinter.  This is your all in one plist editor which even has themes now.  You can also utilize the OCSnapshot function in ProperTree which will import all your SSDt's, Drivers, and Kexts into you config.plist which I must say is super convenient! 
 
 - [MaciASL](https://github.com/acidanthera/MaciASL) A native AML compiler and IDE for macOS, with syntax coloring, tree navigation, automated patching, online patch file repositories, and iASL binary updates. Written entirely in Cocoa, conforms to macOS guidelines.
