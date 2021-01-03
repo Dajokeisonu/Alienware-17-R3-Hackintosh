@@ -109,7 +109,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - Once you have completed your config.plist it is time to boot Open Core from the usb you used and boot the installer. Keep your usb connected and reboot.
 
-- Upon Reboot press ``F12`` to get to your boot options.  Choose your usb that has Open Core on it.
+- Upon Reboot press ``F12`` to get to your Boot Options.  Choose your usb that has Open Core on it.
 
 - Once you have entered the installer select Disk Utility.  On the top left where it says view make sure you choose ``Show All Devices``.  Now right click on your HDD or SSD and choose ``erase``.  Give your Drive a name and make sure that the Format is ``APFS`` and the Scheme ``GUID Partition Map``.  **Warning** This will erase all content on the drive make sure you have backups to whatever you had on there previously if it was important.
 
