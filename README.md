@@ -2,7 +2,7 @@
 
 With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](https://discord.gg/vwrZYVej7g)**  I was able to successfully create a stable working vanilla Hackintosh.  I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
 
-![screenshot](Screen Shot 2021-01-03 at 12.45.11 AM.png)
+![screenshot](https://github.com/Dajokeisonu/Alienware-17r3-Hackintosh/blob/master/images/Screen%20Shot%202021-01-03%20at%2012.45.11%20AM.png)
 
 # Specs
 
