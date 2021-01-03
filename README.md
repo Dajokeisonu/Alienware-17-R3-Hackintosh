@@ -157,7 +157,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Contacting
 
-If you are experiencing any issues of you would like to reach out for support please pay my discord [HaXRu$](https://discord.com/channels/763191086117814282/783871684989419572/783872347886190602) a visit. Its a discord server created to unite multiple modding communites and form a bridge where we can work together to create interesting projects and see them to fruition!  I am looking forward to watching this server grow and getting the oppertunity to work with some great talent!  I also strive to provide support for the multiple modding communities that are going to be part of HaXRu$. 
+If you are experiencing any issues or you would like to reach out for support please pay my discord [HaXRu$](https://discord.com/channels/763191086117814282/783871684989419572/783872347886190602) a visit. Its a discord server created to unite multiple modding communites and form a bridge where we can work together to create interesting projects and see them to fruition!  I am looking forward to watching this server grow and getting the oppertunity to work with some great talent!  I also strive to provide support for the multiple modding communities that are going to be part of HaXRu$. 
 
 
 
