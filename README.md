@@ -80,13 +80,15 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - ```keepsyms=1``` This is a companion setting to debug=0x100 that tells the OS to also print the symbols on a kernel panic. That can give some more helpful insight as to what's causing the panic itself.
 
-- ```cdfon``` This enable HDMI 2.0 patches 
+- ```-cdfon``` This enable HDMI 2.0 patches 
 
 - ```alcid=1```  This makes our layout-id = 1 for audio 
 
 - ```alcdelay=1000``` Sometimes race conditions can occur where your hardware isn't initialized in time for AppleHDAController resulting in no sound output. To get around this, you can either:
 
 - ```debug=0x100``` This disables macOS's watchdog which helps prevents a reboot on a kernel panic. That way you can hopefully glean some useful info and follow the breadcrumbs to get past the issues.
+
+- ```-v``` This will enable verbose boot.  This is an optional boot arg to have for error logging purposes if you happen to have issues booting. 
 
 # Links
 
