@@ -25,7 +25,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Getting Started
 
-- Follow all the steps in [Creating The USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  I found it easiest to create the usb in macOS since you can just download macOS right from the appstore.  If this not an option for you thats fine as you can use windows or linux.  Once you have created your bootable usb with your EFI folder you can see below the kexts, drivers, and ACPI that I have used.
+- Follow all the steps in [Creating The USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).  I found it easiest to create the USB in macOS since you can just download macOS right from the appstore.  If this not an option for you thats fine as you can use windows or linux.  Once you have created your bootable usb with your EFI folder you can see below the kexts, drivers, and ACPI that I have used.
 
 # Kexts
 
@@ -62,7 +62,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # SSDT'S
 
-- **SSDT-USBX:** This SSDT represents usb power.  It is created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this this SSDT you will also use a kext that is created as well.
+- **SSDT-USBX:** This SSDT represents USB power.  It is created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this this SSDT you will also use a kext that is created as well.
 
 - **SSDT-PNLF:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
 
