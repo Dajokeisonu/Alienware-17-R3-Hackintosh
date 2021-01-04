@@ -94,7 +94,9 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **TIMR IRQ 0 Patch:** Find ``<2201007900>`` Replace ``<2200007900>`` Created with SSDTIME FixHPET
 
-#MmioWhiteLis
+# MmioWhiteList
+
+
 
 # My Boot Args
 
