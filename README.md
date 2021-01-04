@@ -84,6 +84,8 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # ACPI Patches
 
+![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/ACPI%20Patches.png)
+
 - **Change EC0 to EC:** Find ``<4543305F>`` Replace ``<45435F5F>`` This renames ECO to EC which is your embedded controller.
 
 - **Change_PRW to XPRW:** Find ``<140F5F50525700A4475052570A6D0A04>`` Replace ``<140F5850525700A4475052570A6D0A04>`` This is a custom patch that prevents laptop from waking on sleep.
