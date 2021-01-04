@@ -106,6 +106,10 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 ![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/Device%20Properties.png)
 
+- For Audio we used layout id as 1 for our Creative Codec.
+
+- Display settings all represent what is needed for our Intel HD 530 (iGPU) to function properly  in macOS.
+
 # My Boot Args
 
 - ```keepsyms=1``` This is a companion setting to debug=0x100 that tells the OS to also print the symbols on a kernel panic. That can give some more helpful insight as to what's causing the panic itself.
