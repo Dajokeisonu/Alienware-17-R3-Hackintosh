@@ -5,8 +5,6 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 ![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/alienware%20blue.jpeg)
 
-![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/alienware.jpeg)
-
 ![screenshot](https://github.com/Dajokeisonu/Alienware-17r3-Hackintosh/blob/master/images/Screen%20Shot%202021-01-03%20at%2012.45.11%20AM.png)
 # Specs
 
