@@ -96,7 +96,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # MmioWhiteList
 
-
+![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/MmioWhiteList.png)
 
 # My Boot Args
 
