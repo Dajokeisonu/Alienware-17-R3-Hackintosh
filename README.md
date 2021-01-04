@@ -37,7 +37,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - **BrcmPatchRAM:** Is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. It will apply the firmware update to your Broadcom Bluetooth device on every startup / wakeup, identical to the Windows drivers. The firmware applied is extracted from the Windows drivers and the functionality should be equal to Windows.  With macOS 10.5 or higer you will want to use **BrcmPatchRAM3.kext**. You will also want to use **BrcmFirmwareData.kext** and **BrcmBluetoothInjector.kext**. These will all be in the links below. This will get bluetooth working along with continuty and handoff.
 
-- **CpuFriend:**  Is a Lilu plug-in for dynamic power management data injection.  In the links below you will use a script to set your power management to your liking.  This will create a kext called **CPUFriendDataProvider.kext**.
+- **CpuFriend:**  Is a Lilu plug-in for dynamic power management data injection.  In the links below you will use the CpuFriendFriend script to set your power management to your liking.  This will create a kext called **CPUFriendDataProvider.kext**.
 
 - **Lilu:** An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. As of right now in macOS Big Sur, Lilu is only semi-working as there is an issue with userspace patching. 
 
@@ -46,6 +46,9 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 - **WhateverGreen:** Is a Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.4.0 or newer.
 
 - **VirtualSMC** Is an advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. The following plugin kexts that come with VirtualSMC are the ones I use.  **SMCBatteryManager.kext:** battery percentage, **SMCDellSensors.kext:** sensors, and **SMCProcessor.kext:** for finer measurement of the CPU.
+
+- **USBMap** This kext is created once you are done mapping your ports with Corps USBMapping Script in the links below.
+
 
 # Drivers
 
@@ -59,7 +62,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # SSDT'S
 
-- **SSDT-USBX & SSDT-UIAC:** The SSDT's represent usb power and mapping of your ports.  They are created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this these SSDT"S you will also use a kext that is created as well.
+- **SSDT-USBX:** The SSDT's represent usb power.  It is created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this this SSDT you will also use a kext that is created as well.
 
 - **SSDT-PNLF:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
 
@@ -139,7 +142,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 - [SSDTTIME:](https://github.com/corpnewt/SSDTTime) A simple tool designed to make creating SSDTs simple. Supports macOS, Linux and Windows.  This is where we will create our **SSDT-HPET & SSDT-PLUG**. It will also generate custom patches for your IRQ Conflicts which can be applied in the patches section of ACPI on your config.plist. 
 
-- [CPUFriend:]( https://github.com/corpnewt/CPUFriendFriend) This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  
+- [CPUFriendFriend:]( https://github.com/corpnewt/CPUFriendFriend) This Py script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.  
 
 - [MountEFI:]( https://github.com/corpnewt/MountEFI) It's a script that mounts your EFI simply. 
 
