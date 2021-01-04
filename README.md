@@ -80,7 +80,7 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 
 # Config.Plist
 
-- Once you have gathered all the contentes of your EFI folder, it is now time to construct your config.plist.  The best all around tool you can use is Proper Tree which I have linked in below.  Proper Tree has a function called OCSnapshot which will import all of your SSDT'S, Kexts, Drivers, and Tools into your plist for you for convenience.  Since our laptop is a Skylake Cpu we will be following the [SkyLake Laptop Config.Plist Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).  Make sure you read through everything and have an understanding as to what is going on.  Below I will list the ACPI Patches that I use and Boot Args.  
+- Once you have gathered all the contentes of your EFI folder, it is now time to construct your config.plist.  The best all around tool you can use is Proper Tree which I have linked in below.  Proper Tree has a function called OCSnapshot which will import all of your SSDT'S, Kexts, Drivers, and Tools into your plist for you for convenience.  Since our laptop is a Skylake Cpu we will be following the [SkyLake Laptop Config.Plist Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html).  Make sure you read through everything and have an understanding as to what is going on.  Below I will list only specific things per our laptop to make constructing the plist more simple.
 
 # ACPI Patches
 
@@ -93,6 +93,8 @@ With the help of CorpNewt and the talent over at **[/r/ Hackintosh Paradise](htt
 - **RTC IRQ 8 Patch:** Find ``<2200017900>`` Replace ``<2200007900>`` Created with SSDTTIME FixHPET
 
 - **TIMR IRQ 0 Patch:** Find ``<2201007900>`` Replace ``<2200007900>`` Created with SSDTIME FixHPET
+
+#MmioWhiteLis
 
 # My Boot Args
 
