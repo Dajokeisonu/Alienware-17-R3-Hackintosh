@@ -62,7 +62,7 @@ With the help of **CorpNewt** and the talent over at **[/r/ Hackintosh Paradise]
 
 # SSDT'S
 
-- **SSDT-USBX:** This SSDT represents USB power.  It is created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this this SSDT you will also use a kext that is created as well.
+- **SSDT-USBX:** This SSDT represents USB power.  It is created while using CorpNewt's UsbMapping tool which will be linked down below.  In combination with this SSDT you will also use a kext that is created as well.
 
 - **SSDT-PNLF:**. This is to be used in combination with WhateverGreen to enable brightness control in macOS.
 
