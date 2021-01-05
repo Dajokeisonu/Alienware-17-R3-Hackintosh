@@ -1,7 +1,7 @@
 
 # Alienware 17 R3 Hackintosh
 
-With the help of **CorpNewt** and the talent over at **[/r/ Hackintosh Paradise](https://discord.gg/vwrZYVej7g)**  I was able to successfully create a stable working vanilla Hackintosh.  I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
+With the help of **CorpNewt** and the talent over at **[/r/ Hackintosh Paradise](https://discord.gg/vwrZYVej7g)**  I was able to successfully create a stable working vanilla Hackintosh.  I will be going over my process and what is needed to accomplish getting macOS booted on your Alienware 17 R3. I will not be providing any links to my EFI folder as this will take away from your learning experience.  Having a Hackintosh requires knowledge of what you are doing in order to maintain a stable system and be able to update successfully.
 
 ![screenshot](https://github.com/Dajokeisonu/Alienware-17R3-Hackintosh/blob/master/images/alienware%20blue.jpeg)
 
@@ -140,7 +140,7 @@ With the help of **CorpNewt** and the talent over at **[/r/ Hackintosh Paradise]
 
 - Once you entered the Desktop we now must transfer the EFI folder on the usb over to to the EFI folder of the new Drive that macOS is on.  Go into finder and choose preferences.  In general make sure you check off to show Hard disks and External disks.  Now in the links below I want you to download **MountEFI** we will use this to mount the efi of the bootable usb and the hard drive that macOS is on.  Once you run the script and mount the EFI folders, open the usb's EFI folder and right click on the folder called EFI and press copy.  Then open your hard drives EFI folder and paste it in there.  If you already see an EFI folder its fine let it overwrite it. You may now disconnect the usb and reboot your laptop.
 
-- Congratulations you now have successfully installed macOS on your Alienware 17R3!
+- Congratulations you now have successfully installed macOS on your Alienware 17 R3!
 
 # Links
 
